@@ -1,0 +1,102 @@
+html {
+  font-family: 'Work Sans', sans-serif;
+}
+
+body {
+  border-left: 8px solid rgb(221,221,221);
+  padding-left: 30px;
+  padding-right: 30px;
+  margin-left: 5%;
+  margin-right: 10%;
+}
+
+img {
+  max-width: 100%;
+}
+
+header h2 {
+  font-size: 20px;
+  font-weight: normal;
+}
+
+h1 {
+  font-weight: normal;
+  font-size: 50px;
+  margin-bottom: -5px;
+}
+
+h1 a {
+  color: red
+}
+
+nav {
+  font-size: 16px;
+  max-width: 900px;
+}
+
+header  nav {
+  padding-bottom: 15px;
+
+}
+
+footer {
+  font-size: 12px;
+}
+
+footer nav a {
+    color: red;
+    text-decoration: none;
+    font-size: 12px;
+    margin-top: 10px;
+}
+
+footer nav a:not(:first-child):before {
+    content: " | ";
+    color: rgb(221,221,221);
+    text-decoration: none;
+}
+
+.clear {
+  clear:both;
+}
+
+nav a {
+  color: rgb(221,221,221);
+  text-decoration: underline;
+
+}
+
+h3 {
+  color: rgb(221,221,221);
+  font-weight: normal;
+  font-size: 30px;
+  margin-bottom: -10px;
+}
+
+h4 {
+  text-align: right;
+}
+
+a {
+  text-decoration: none;
+  color: red;
+}
+
+h2 a{
+  color: black;
+}
+
+p::first-letter {
+  font-weight: bold;
+  color: rgb(221,221,221);
+  font-size: 60px;
+  float: left;
+  padding-right: 10px;
+  margin-top: -5px;
+}
+
+article {
+  border-bottom: 2px solid rgb(221,221,221);
+  max-width: 900px;
+  margin-bottom: 15px;
+}
